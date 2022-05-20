@@ -1,10 +1,11 @@
 {
-  "name": "test_ts",
+  "name": "new_gen_vision_test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts"
+    "sorting": "ts-node sorting/sorting.ts",
+    "filtering": "ts-node filter/filter.ts",
+    "test": "jest test"
   },
   "dependencies": {
     "@babel/preset-env": "^7.17.12",
